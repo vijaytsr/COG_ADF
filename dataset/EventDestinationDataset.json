@@ -1,0 +1,17 @@
+{
+	"name": "EventDestinationDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlOLAPDatabaseLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Population"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

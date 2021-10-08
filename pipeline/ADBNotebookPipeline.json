@@ -1,0 +1,30 @@
+{
+	"name": "ADBNotebookPipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Kennedy Notebook",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/vaimadhuram@outlook.com/KennedyNotebook"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricksLS",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2021-10-08T06:40:33Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

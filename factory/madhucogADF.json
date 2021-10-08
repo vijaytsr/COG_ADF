@@ -1,0 +1,9 @@
+{
+	"name": "madhucogADF",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22c4042f-f9a1-4d60-b299-828ccd48c41c",
+		"tenantId": "a1886340-ea78-41f9-bc1d-59256c9f5e11"
+	}
+}
